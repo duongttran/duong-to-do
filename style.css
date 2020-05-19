@@ -1,0 +1,61 @@
+li:nth-child(2n) {
+    background-color: #f2f2f2;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(https://every-tuesday.com/wp-content/uploads/2018/10/3-ways-to-create-heart-shape-illustrator.jpg);
+    background-size: 30%;
+    background-blend-mode: lighten;
+}
+
+ul li {
+    line-height: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: rgb(168, 0, 0);
+}
+
+.main-section {
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: rgb(224, 224, 224);
+    padding: 5%;
+}
+
+button {
+    background-color: rgb(168, 0, 0);
+    border: 0px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 12px;
+    font-size: 12px;
+    border-radius: 10px;
+    transition: 0.5s;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: rgb(221, 0, 0);
+    border: 0px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    padding: 12px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+input {
+    padding: 12px;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-right: 10px;
+}
